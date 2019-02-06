@@ -13,5 +13,25 @@ namespace Ejercicios
         {
 
         }
+
+        protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
+       {
+            GridViewRow row = GridView1.SelectedRow;
+
+            lblMensaje.ForeColor = System.Drawing.Color.Black;
+            lblMensaje.Text = "Seleccionaste: " + row.Cells[1].Text + ".";
+        }
+
+        protected void GridView1_SelectedIndexChanging(object sender, GridViewSelectEventArgs e)
+        {
+            GridViewRow row = GridView1.Rows[e.NewSelectedIndex];
+
+            lblMensaje.ForeColor = System.Drawing.Color.Red;
+            if (row.Cells[1].Text == "1")
+            {
+                e.Cancel = true;
+                lblMensaje.Text = "No puedes seleccionar " + row.Cells[2].Text + ".";
+            }
+        }
     }
 }

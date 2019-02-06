@@ -18,6 +18,12 @@ namespace BackEnd.Util
                 id = 1,
                 instrumento = "Guitarra"
             });
+            listaMusicos.Add(new Musico()
+            {
+                nombre = "¨Pedro",
+                id = 2,
+                instrumento = "Acordeón"
+            });
         }
     }
 }
