@@ -20,7 +20,7 @@ namespace BackEnd.Util
             });
             listaMusicos.Add(new Musico()
             {
-                nombre = "¨Pedro",
+                nombre = "Pedro",
                 id = 2,
                 instrumento = "Acordeón"
             });
