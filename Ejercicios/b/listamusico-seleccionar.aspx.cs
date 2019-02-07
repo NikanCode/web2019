@@ -20,6 +20,9 @@ namespace Ejercicios.b
             lblMensaje.Text = row.Cells[2].Text;
             lblMensaje.ForeColor = System.Drawing.Color.Black;
 
+            Session.Add("idMusico", row.Cells[1].Text);
+            Response.Redirect("musicoForm.aspx");
+
         }
 
         protected void GridView1_SelectedIndexChanging(object sender, GridViewSelectEventArgs e)

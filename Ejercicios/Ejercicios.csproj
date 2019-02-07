@@ -201,10 +201,12 @@
     <Content Include="a\ejemplo.aspx" />
     <Content Include="a\listamusico-select.aspx" />
     <Content Include="a\meta.aspx" />
+    <Content Include="a\musicoForm.aspx" />
     <Content Include="a\RecibirParametros.aspx" />
     <Content Include="b\EnivarDatos.aspx" />
     <Content Include="b\listamusico-seleccionar.aspx" />
     <Content Include="b\meta.aspx" />
+    <Content Include="b\musicoForm.aspx" />
     <Content Include="b\request.aspx" />
     <Content Include="a\response.aspx" />
     <Content Include="b\response.aspx" />
@@ -415,6 +417,13 @@
     <Compile Include="a\meta.aspx.designer.cs">
       <DependentUpon>meta.aspx</DependentUpon>
     </Compile>
+    <Compile Include="a\musicoForm.aspx.cs">
+      <DependentUpon>musicoForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="a\musicoForm.aspx.designer.cs">
+      <DependentUpon>musicoForm.aspx</DependentUpon>
+    </Compile>
     <Compile Include="a\RecibirParametros.aspx.cs">
       <DependentUpon>RecibirParametros.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -442,6 +451,13 @@
     </Compile>
     <Compile Include="b\meta.aspx.designer.cs">
       <DependentUpon>meta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="b\musicoForm.aspx.cs">
+      <DependentUpon>musicoForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="b\musicoForm.aspx.designer.cs">
+      <DependentUpon>musicoForm.aspx</DependentUpon>
     </Compile>
     <Compile Include="b\request.aspx.cs">
       <DependentUpon>request.aspx</DependentUpon>

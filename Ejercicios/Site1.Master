@@ -22,7 +22,7 @@
 <body>
     <form id="form1" runat="server">
     <div>
-        <img alt="" class="auto-style1" src="<%=Server.MapPath("~/Imagenes/Pie%20de%20Pagina-Leonidas.PNG") %>" />=
+        <img alt="" class="auto-style1" src="<%=ResolveClientUrl("~/Imagenes/Pie%20de%20Pagina-Leonidas.PNG") %>" />=
         <br />
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         

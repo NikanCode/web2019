@@ -21,5 +21,16 @@ namespace BackEnd.DAOS
             List<Musico> lista = BDDummy.listaMusicos;
             lista.Add(m);
         }
+
+        public Musico getById(int id) {
+            List<Musico> lista = BDDummy.listaMusicos;
+            foreach (Musico m in lista)
+            {
+                if (m.id == id) {
+                    return m;
+                }
+            }
+            return null;
+        }
     }
 }
