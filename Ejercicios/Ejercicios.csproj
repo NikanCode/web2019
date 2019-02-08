@@ -222,6 +222,8 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Imagenes\Encabezado-Leonidas.PNG" />
+    <Content Include="Imagenes\Pie de Pagina-Leonidas.PNG" />
     <Content Include="ListaMusicoPagMaestra.aspx" />
     <Content Include="paginaMaestra\Principal.Master" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
@@ -573,7 +575,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Imagenes\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BackEnd\BackEnd.csproj">
