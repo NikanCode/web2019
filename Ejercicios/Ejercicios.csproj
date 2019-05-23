@@ -210,6 +210,8 @@
     <Content Include="b\request.aspx" />
     <Content Include="a\response.aspx" />
     <Content Include="b\response.aspx" />
+    <Content Include="consultaDatos.aspx" />
+    <Content Include="consultaDatos.js" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
@@ -226,6 +228,7 @@
     <Content Include="Imagenes\Pie de Pagina-Leonidas.PNG" />
     <Content Include="ListaMusicoPagMaestra.aspx" />
     <Content Include="paginaMaestra\Principal.Master" />
+    <Content Include="wsMusico.asmx" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="listaMusico.aspx" />
     <Content Include="listaMusicos.aspx" />
@@ -482,6 +485,13 @@
     <Compile Include="b\response.aspx.designer.cs">
       <DependentUpon>response.aspx</DependentUpon>
     </Compile>
+    <Compile Include="consultaDatos.aspx.cs">
+      <DependentUpon>consultaDatos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="consultaDatos.aspx.designer.cs">
+      <DependentUpon>consultaDatos.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -571,6 +581,10 @@
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="wsMusico.asmx.cs">
+      <DependentUpon>wsMusico.asmx</DependentUpon>
+      <SubType>Component</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
